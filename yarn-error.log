@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\php-7.4.32;C:\Program Files\Git\cmd;C:\Ruby31-x64\bin;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;C:\Users\ACER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ACER\go\bin;C:\Program Files\JetBrains\GoLand 2022.2.3\bin;;C:\Python27;C:\Python27\Scripts;C:\Users\ACER\AppData\Roaming\npm;C:\Program Files\php-7.4.32;;C:\Program Files\JetBrains\PyCharm 2022.3.1\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ACER\Documents\meezan\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "meezan",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@headlessui/react": "^1.7.11",
+      "axios": "^1.3.3",
+      "bcryptjs": "^2.4.3",
+      "eslint": "8.32.0",
+      "eslint-config-next": "13.1.5",
+      "js-cookie": "^3.0.1",
+      "mongoose": "^6.9.1",
+      "next": "13.1.5",
+      "next-auth": "^4.19.2",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-hook-form": "^7.43.0"
+    },
+    "devDependencies": {
+      "@heroicons/react": "^1.0.6",
+      "@types/react": "^18.0.27",
+      "autoprefixer": "^10.4.13",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.2.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
